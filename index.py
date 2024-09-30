@@ -19,7 +19,6 @@ mysql = MySQL(app)
 # Tratamento das rotas #
 ########################
 
-
 @app.route('/')  # Define a rota para a URL raiz ('/')
 def home():  # Função executada quando '/' é acessado
 
@@ -81,8 +80,9 @@ def contacts():  # Função executada quando '/contacts' é acessado
     # Retorna uma mensagem simples
     return render_template('contacts.html', page=toPage)
 
-
 # Verifica se o script está sendo executado diretamente
 if __name__ == '__main__':
     # Inicia o servidor Flask em modo debug
     app.run(debug=True)
+
+
