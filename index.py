@@ -50,11 +50,11 @@ def home():  # Função executada quando '/' é acessado
     # Variável da página HTML
     toPage = {
         # Valor da tag <title> → Título da página
-        'title': 'FlaskBlog',
+        'title': 'BlogCMD',
         # Nome da folha de estilos desta página (opcional)
         'css': 'home.css',
         # Nome do JavaScript desta página (opcional)
-        'js': 'home.js',
+        'dg': 'home.DG',
         # Outros pares "chave" : "valor" entram aqui
         'articles': articles
     }

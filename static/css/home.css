@@ -9,7 +9,7 @@
 .article-box {
     display: flex;
     flex-direction: column;
-    border: 1px dotted grey;
+    border: 1px dotted rgb(128, 128, 128);
     margin-bottom: 1rem;
     cursor: pointer;
     flex: 1 1 100%;
